@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorPrimary">@color/red</item>
+        <item name="android:colorPrimaryDark">@color/green</item>
+        <item name="android:windowBackground">@color/blue</item>
+        <item name="textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.Base" parent="Theme.AppCompat">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- 夜间模式 -->
+    <style name="AppTheme.night" parent="Theme.AppCompat.Light.NoActionBar">
+
+
+        <item name="textColor">@color/green_light</item>
+        <item name="android:colorPrimary">@color/gray_dark</item>
+        <item name="android:colorPrimaryDark">@color/green</item>
+        <item name="android:windowBackground">@color/gray_dark</item>
+    </style>
+</resources>
